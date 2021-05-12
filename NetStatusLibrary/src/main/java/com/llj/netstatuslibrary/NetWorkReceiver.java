@@ -47,20 +47,7 @@ public class NetWorkReceiver extends BroadcastReceiver {
             if (methodManagers != null) {
                 for (MethodManager methodManager : methodManagers) {
                     methodManager.getType().isAssignableFrom(netType.getClass());
-                    switch (netType) {
-                        case AUTO:
-                        case WIFI:
-                        case CMNET:
-                        case CMWAP:
-                            invoke(methodManager, object, netType);
-                            break;
-                        case NONE:
-                            Log.e("NetWorkReceiver", "---netWorkStatus---NONE");
-                            break;
-                        default:
-                            Log.e("NetWorkReceiver", "---netWorkStatus---UNKNOW");
-                            break;
-                    }
+                    invoke(methodManager, object, netType);
                 }
             }
         }

@@ -1,9 +1,10 @@
-package com.orhanobut.logger;
+package com.llj.netstatuslibrary.log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import static com.orhanobut.logger.Utils.checkNotNull;
+import static com.llj.netstatuslibrary.log.Utils.checkNotNull;
+
 
 /**
  * Draws borders around the given log message along with additional information such as :
@@ -214,7 +215,8 @@ public class PrettyFormatStrategy implements FormatStrategy {
     int methodCount = 2;
     int methodOffset = 0;
     boolean showThreadInfo = true;
-    @Nullable LogStrategy logStrategy;
+    @Nullable
+    LogStrategy logStrategy;
     @Nullable String tag = "PRETTY_LOGGER";
 
     private Builder() {

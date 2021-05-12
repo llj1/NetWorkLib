@@ -1,4 +1,4 @@
-package com.orhanobut.logger;
+package com.llj.netstatuslibrary.log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,13 +20,13 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
-import static com.orhanobut.logger.Logger.ASSERT;
-import static com.orhanobut.logger.Logger.DEBUG;
-import static com.orhanobut.logger.Logger.ERROR;
-import static com.orhanobut.logger.Logger.INFO;
-import static com.orhanobut.logger.Logger.VERBOSE;
-import static com.orhanobut.logger.Logger.WARN;
-import static com.orhanobut.logger.Utils.checkNotNull;
+import static com.llj.netstatuslibrary.log.Logger.ASSERT;
+import static com.llj.netstatuslibrary.log.Logger.DEBUG;
+import static com.llj.netstatuslibrary.log.Logger.ERROR;
+import static com.llj.netstatuslibrary.log.Logger.INFO;
+import static com.llj.netstatuslibrary.log.Logger.VERBOSE;
+import static com.llj.netstatuslibrary.log.Logger.WARN;
+import static com.llj.netstatuslibrary.log.Utils.checkNotNull;
 
 class LoggerPrinter implements Printer {
 

@@ -1,9 +1,9 @@
-package com.orhanobut.logger;
+package com.llj.netstatuslibrary.log;
 
 import android.content.Context;
-import android.os.Environment;
 import android.os.Handler;
 import android.os.HandlerThread;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
@@ -12,7 +12,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import static com.orhanobut.logger.Utils.checkNotNull;
+import static com.llj.netstatuslibrary.log.Utils.checkNotNull;
+
 
 /**
  * CSV formatted file logging for Android.

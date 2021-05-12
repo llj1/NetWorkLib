@@ -59,7 +59,11 @@ public class NetTypeUtil {
                     }
                 }
             } else if (type == ConnectivityManager.TYPE_WIFI) {
+                //wifi
                 return NetType.WIFI;
+            } else if (type == connectivityManager.TYPE_ETHERNET){
+                //以太网
+                return NetType.ETHERNET;
             }
         }
         return NetType.NONE;

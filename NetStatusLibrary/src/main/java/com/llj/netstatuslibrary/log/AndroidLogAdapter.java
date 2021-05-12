@@ -1,9 +1,10 @@
-package com.orhanobut.logger;
+package com.llj.netstatuslibrary.log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import static com.orhanobut.logger.Utils.checkNotNull;
+import static com.llj.netstatuslibrary.log.Utils.checkNotNull;
+
 
 /**
  * Android terminal log output implementation for {@link LogAdapter}.

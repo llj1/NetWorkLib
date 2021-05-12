@@ -1,10 +1,12 @@
-package com.orhanobut.logger;
+package com.llj.netstatuslibrary.log;
+
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import android.util.Log;
 
-import static com.orhanobut.logger.Utils.checkNotNull;
+import static com.llj.netstatuslibrary.log.Utils.checkNotNull;
+
 
 /**
  * LogCat implementation for {@link LogStrategy}

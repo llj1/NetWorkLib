@@ -4,10 +4,11 @@ import android.app.Application;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 
-import com.orhanobut.logger.AndroidLogAdapter;
-import com.orhanobut.logger.DiskLogAdapter;
-import com.orhanobut.logger.Logger;
-import com.orhanobut.logger.PrettyFormatStrategy;
+import com.llj.netstatuslibrary.log.AndroidLogAdapter;
+import com.llj.netstatuslibrary.log.DiskLogAdapter;
+import com.llj.netstatuslibrary.log.Logger;
+import com.llj.netstatuslibrary.log.PrettyFormatStrategy;
+
 
 public class NetWorkManager {
     public static volatile NetWorkManager instants;

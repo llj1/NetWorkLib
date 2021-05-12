@@ -9,7 +9,7 @@ import android.widget.Toast;
 import com.llj.netstatuslibrary.NetType;
 import com.llj.netstatuslibrary.annotation.NetWork;
 import com.llj.netstatuslibrary.NetWorkManager;
-import com.orhanobut.logger.Logger;
+import com.llj.netstatuslibrary.log.Logger;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -43,6 +43,9 @@ public class MainActivity2 extends AppCompatActivity {
                 Logger.d("无网络");
                 Log.e("MainActivity", "无网络");
                 Toast.makeText(this, "NONE", Toast.LENGTH_SHORT).show();
+                break;
+            case ETHERNET:
+                Logger.d("以太网");
                 break;
             default:
                 break;

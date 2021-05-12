@@ -1,11 +1,12 @@
-package com.orhanobut.logger;
+package com.llj.netstatuslibrary.log;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import static com.orhanobut.logger.Utils.checkNotNull;
+import static com.llj.netstatuslibrary.log.Utils.checkNotNull;
+
 
 /**
  * This is used to saves log messages to the disk.

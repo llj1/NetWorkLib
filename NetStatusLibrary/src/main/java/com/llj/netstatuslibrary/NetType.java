@@ -5,5 +5,6 @@ public enum NetType {
     WIFI,
     CMNET,
     CMWAP,
+    ETHERNET,
     NONE
 }

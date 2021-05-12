@@ -1,8 +1,9 @@
-package com.orhanobut.logger;
+package com.llj.netstatuslibrary.log;
 
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
@@ -10,7 +11,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import static com.orhanobut.logger.Utils.checkNotNull;
+import static com.llj.netstatuslibrary.log.Utils.checkNotNull;
+
 
 /**
  * Abstract class that takes care of background threading the file log operation on Android.
