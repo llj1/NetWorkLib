@@ -1,0 +1,4 @@
+include ':NetStatusLibrary'
+include ':app'
+include ':logger'
+rootProject.name = "NetWorkLib"
